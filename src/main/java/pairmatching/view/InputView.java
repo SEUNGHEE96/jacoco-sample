@@ -12,4 +12,11 @@ public class InputView {
         return menu;
     }
 
+    public String[] getScenarios() {
+        System.out.println(inputMessage.GET_CASE);
+        String scenarios = Console.readLine();
+        String[] scenario = scenarios.split(",");
+        return scenario;
+    }
+
 }

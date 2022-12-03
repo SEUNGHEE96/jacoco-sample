@@ -6,6 +6,7 @@ public class MathcingController {
     InputView inputView = new InputView();
     public void start(){
         inputView.getMenu();
+        inputView.getScenarios();
     }
 
 }
